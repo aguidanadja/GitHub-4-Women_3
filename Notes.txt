@@ -1,0 +1,70 @@
+Cadastrar usuário do git na máquina (os commites serão associados ao usuário)
+-- https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
+git config --global user.name "Aguida Nadja M Soares"
+git config --global user.email "aguidanadja@gmail.com"
+
+Abrir um diretório: cd + caminho do diretório
+ex.: cd C:\Users\nadja\iCloudDrive\GitHub\GH4Woman-modulo1
+
+
+Fork: clonar um repositório para conta do usuário que fez o fork (ou conta que ele indicou como destino).
+
+
+Clonar um repositório:
+- Via CMD
+git clone + url do repositório
+Ex.: git clone https://github.com/GH4WOMAN-M1/GH4Woman-modulo1.git
+- Via VSCode
+Abrir a pasta destino e clicar em Clone Git Repository
+Obs.: no primeiro acesso será necessário autorizar o vínculo.
+
+
+
+Criar uma branch
+git checkout -b - Alterne entre os ramos ou restaure os arquivos da árvore de trabalho
+git-checkout-index - Copy files from the index to the working tree
+Consultar a branch que estamos trabalhando: git branch
+
+Consultar status: git status
+vermelho: working directory (arquivo na máquina local)
+verde: staging area (arquivo pronto para commit)
+
+Commit: git commit 
+Envia os arquivos que estavam em staging area 
+-m adiciona uma mensagem ao commit 
+Ex.: git commit -m "meu primeiro commit"
+
+Enviar o arquivo para o git
+git push -u origin <nome_brach>
+
+
+
+Markdown
+Sintaxe básica (tags)
+# H1
+## H2
+### H3
+
+**Negrito**
+
+*Itálico*
+
+> bloco de sitação
+
+> [!WARNING]
+> This code is used for example purposes only.
+
+Lista ordenada
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
+- Item1
+- Item2
+
+[Link](https://www.teste.com.br)
+
+Texto.
+
+```
+código
+```
